@@ -4,7 +4,7 @@
 
 ### Local models. Measured speed.
 
-[**LLM engine →**](https://github.com/memoriesdead/local-llm-engine) · [**Video engine →**](https://github.com/memoriesdead/local-video-engine) · [LLM benchmarks](https://github.com/memoriesdead/local-llm-engine/blob/main/benchmarks/comparison.md) · [Video benchmarks](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/comparison.md)
+[**LLM engine →**](https://github.com/memoriesdead/local-llm-engine) · [**Video →**](https://github.com/memoriesdead/video) · [LLM benchmarks](https://github.com/memoriesdead/local-llm-engine/blob/main/benchmarks/comparison.md) · [Video benchmarks](https://github.com/memoriesdead/video/blob/main/benchmarks/comparison.md)
 
 ![Local Speed Engine: 310.84 tokens per second for the Claude Code SDK API portion and 9.50 seconds per warm audiovisual task; saved RTX 5090 observations with different timing scopes.](assets/hub-dashboard.svg)
 
@@ -17,7 +17,7 @@ the LLM and video packages have **separate repositories, setup guides and releas
 | Project | Our saved result · one RTX 5090 | Get the source | Complete comparison |
 | --- | --- | --- | --- |
 | **Local LLM Engine** | **310.84 tokens/s** · Claude Code SDK API portion | [LLM repository](https://github.com/memoriesdead/local-llm-engine) | [24 detailed runtimes + 25 additional sources + 5 hosted providers](https://github.com/memoriesdead/local-llm-engine/blob/main/benchmarks/comparison.md) |
-| **Local Video Engine** | **9.50 s** · warm audiovisual task | [Video repository](https://github.com/memoriesdead/local-video-engine) | [30 local project groups + 7 frontier providers](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/comparison.md) |
+| **Video** | **9.50 s** · warm audiovisual task | [Video repository](https://github.com/memoriesdead/video) | [30 local project groups + 7 frontier providers](https://github.com/memoriesdead/video/blob/main/benchmarks/comparison.md) |
 
 These are **historical whole-stack measurements**, not fresh GPU tests of the
 public packages or measured gains attributable to their patches. Short-prompt
@@ -74,7 +74,7 @@ Task clocks include processing and saving; process startup is separate. The full
 coordinator **failed** its process-identity guard before final exit. Twelve saved
 audiovisual outputs passed a separate full-decode and same-profile repeatability
 audit. The overall run remains failed, and output quality equivalence is unproven.
-[Samples and limits](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/reference.json).
+[Samples and limits](https://github.com/memoriesdead/video/blob/main/benchmarks/reference.json).
 
 ### Selected published comparisons
 
@@ -89,13 +89,13 @@ External figures are publisher reports, not runs performed here.
 | [NVIDIA Sol / H3](https://nvlabs.github.io/Sana/Sol-Engine/H3-OnDevice/) | 231.2 s | 1× RTX 5090 | 768p, 124 frames, **50 steps**, audio; warm publisher E2E clock |
 
 Veo, Sora, Runway, Luma, Kling, Pika and MiniMax/Hailuo have a separate
-[frontier service table](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/comparison.md#frontier-services),
+[frontier service table](https://github.com/memoriesdead/video/blob/main/benchmarks/comparison.md#frontier-services),
 including current availability notices and unknown timing fields. Clip duration,
 streaming FPS and first-frame latency are separate from finished-video time.
 
-[**Full video table, conditions and official links →**](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/comparison.md)
- · [JSON data](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/comparison.json)
- · [Timing protocol](https://github.com/memoriesdead/local-video-engine/blob/main/benchmarks/protocol.md)
+[**Full video table, conditions and official links →**](https://github.com/memoriesdead/video/blob/main/benchmarks/comparison.md)
+ · [JSON data](https://github.com/memoriesdead/video/blob/main/benchmarks/comparison.json)
+ · [Timing protocol](https://github.com/memoriesdead/video/blob/main/benchmarks/protocol.md)
 
 ## Source coverage
 
@@ -224,7 +224,7 @@ These are public source links, not 25 additional independently measured engines.
 ## Use the separate engines
 
 - [**Local LLM Engine**](https://github.com/memoriesdead/local-llm-engine): pinned NInfer and experimental llama.cpp source patches, setup and numerical checks.
-- [**Local Video Engine**](https://github.com/memoriesdead/local-video-engine): pinned WanGP integration, caching, guarded graph reuse and finite local batches.
+- [**Video**](https://github.com/memoriesdead/video): pinned WanGP integration, caching, guarded graph reuse and finite local batches.
 
 Model support comes from the selected backend. These packages preserve stored
 model weight files; they do not make every model compatible or guarantee identical
