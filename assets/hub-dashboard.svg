@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">Local Speed Engine: local LLM and video benchmark hub</title>
+  <desc id="desc">Saved one-RTX-5090 observations: 310.84 generated tokens per second for the Claude Code SDK API portion; 146.52 for the complete invocation; 371.80 for direct API. Video warm-task median 9.50 seconds and first-task median 25.11 seconds. Different timing scopes; no matched fastest-engine ranking or fresh public-export GPU run.</desc>
+  <rect width="1200" height="510" rx="24" fill="#0b1020"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="36" y="32" width="6" height="46" rx="3" fill="#63e3ee"/>
+    <text x="58" y="65" fill="#eef4ff" font-size="34" font-weight="700">LOCAL SPEED ENGINE</text>
+    <text x="1164" y="58" fill="#a7b4cc" font-size="15" text-anchor="end">RTX 5090 / SAVED MEASUREMENTS</text>
+    <text x="36" y="107" fill="#a7b4cc" font-size="19">Separate engines. Clear clocks. Linked public benchmarks.</text>
+    <rect x="36" y="134" width="552" height="262" rx="18" fill="#141e33" stroke="#27344e"/>
+    <rect x="612" y="134" width="552" height="262" rx="18" fill="#141e33" stroke="#27344e"/>
+    <text x="60" y="173" fill="#63e3ee" font-size="17" font-weight="600">LLM / QWEN-FAMILY 27B</text>
+    <text x="60" y="251" fill="#eef4ff" font-size="66" font-weight="700">310.84</text>
+    <text x="292" y="249" fill="#63e3ee" font-size="25">tokens/s</text>
+    <text x="60" y="286" fill="#eef4ff" font-size="19">Claude Code SDK API portion</text>
+    <line x1="60" y1="308" x2="564" y2="308" stroke="#27344e"/>
+    <text x="60" y="340" fill="#a7b4cc" font-size="17">146.52 full invocation · 371.80 direct API</text>
+    <text x="60" y="371" fill="#a7b4cc" font-size="16">Short code input · single request</text>
+    <text x="636" y="173" fill="#ffbf78" font-size="17" font-weight="600">VIDEO / AUDIOVISUAL TASK</text>
+    <text x="636" y="251" fill="#eef4ff" font-size="66" font-weight="700">9.50</text>
+    <text x="803" y="249" fill="#ffbf78" font-size="25">seconds</text>
+    <text x="636" y="286" fill="#eef4ff" font-size="19">Warm task median · 4 samples</text>
+    <line x1="636" y1="308" x2="1140" y2="308" stroke="#27344e"/>
+    <text x="636" y="340" fill="#a7b4cc" font-size="17">25.11 s first-task median · 2 samples</text>
+    <text x="636" y="371" fill="#a7b4cc" font-size="16">640×384 · 107 frames · 24 FPS · 8 steps · audio</text>
+    <text x="36" y="441" fill="#eef4ff" font-size="18">Model weights stay unchanged. Source packages stay separate.</text>
+    <text x="36" y="476" fill="#a7b4cc" font-size="16">Historical whole-stack results; video coordinator failed, saved media separately audited.</text>
+  </g>
+</svg>

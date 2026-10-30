@@ -23,13 +23,18 @@
     },
     {
       "path": "README.md",
-      "size": 5708,
-      "sha256": "aef7d7654fad3b4ffc75fe75d7e228af58acd66b67895e6d898eba606f1abd83"
+      "size": 23723,
+      "sha256": "1ad823e3ea70b87833e89772e27133a12e5d618aa4c518a187888c51ecf9f4dc"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "size": 1075,
       "sha256": "7b7308661234ed48a36c5d9fde4b8cf10a3178e92959dd8484adf114767b0ff7"
+    },
+    {
+      "path": "assets/hub-dashboard.svg",
+      "size": 2803,
+      "sha256": "32af662dac0e3d0cdbd3ed1e4bf92d809bbd9543051f293981552ec4372a7769"
     },
     {
       "path": "backends/llama-cpp/LICENSE",
@@ -153,13 +158,13 @@
     },
     {
       "path": "tests/test_release_gate.py",
-      "size": 12872,
-      "sha256": "9332d4a6e5f18fc3bf7f8b2e600119fd67f2411a3129ae5c3c2488ddb6389ec0"
+      "size": 22082,
+      "sha256": "b6e37e86a0847c1e3f4ba15d601a20345914194ba22728e57c2066db076ad22f"
     },
     {
       "path": "tools/check_release.py",
-      "size": 16541,
-      "sha256": "55fa1db82b1e6214198378fd1ecdfd7283dd07efcd25f5fefe39075328085ebc"
+      "size": 23822,
+      "sha256": "a234208f8d1f6e9be7e842e4ea4c167c364e28bf6db8d5500265dc850bd11e5d"
     },
     {
       "path": "tools/engine.py",
