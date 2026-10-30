@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 71,
+      "sha256": "fd534920426b4e86d18e815d36b5bd9f768f07756041af0c03357871543a4351"
+    },
+    {
+      "path": ".gitignore",
+      "size": 200,
+      "sha256": "ecf6b727069bdfd82007139b16bf8676faa9369c4c19183716abef3aab6b0e01"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "LICENSES.md",
+      "size": 1239,
+      "sha256": "e37ac4581a3a91827b24a4f5c48a5c8846337cb5ce3fc36f68720c5d0a9c9ed8"
+    },
+    {
+      "path": "README.md",
+      "size": 5708,
+      "sha256": "aef7d7654fad3b4ffc75fe75d7e228af58acd66b67895e6d898eba606f1abd83"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1075,
+      "sha256": "7b7308661234ed48a36c5d9fde4b8cf10a3178e92959dd8484adf114767b0ff7"
+    },
+    {
+      "path": "backends/llama-cpp/LICENSE",
+      "size": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "backends/llama-cpp/README.md",
+      "size": 4796,
+      "sha256": "eeb38b711f60dfd0cbd841d49877bced2eab7edaee7fa59d4895439287185449"
+    },
+    {
+      "path": "backends/llama-cpp/backend.json",
+      "size": 782,
+      "sha256": "cd29a54f3e5eefac1ee10cc00aa74f633bd04fed053ea7c7bfde34060628f238"
+    },
+    {
+      "path": "backends/llama-cpp/patches/q4-grouped-decode.patch",
+      "size": 6447,
+      "sha256": "27947dbff581c43b8bb01b2b01396686f7b2eb79b92692d624315e904fc3c115"
+    },
+    {
+      "path": "backends/llama-cpp/tests/test_q4_attention.cpp",
+      "size": 5338,
+      "sha256": "71866a77a8d3d850f006ce1067fce034b98dac1368e78174b31c3bab6c7c2f78"
+    },
+    {
+      "path": "backends/ninfer/LICENSE",
+      "size": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "backends/ninfer/README.md",
+      "size": 4677,
+      "sha256": "2b0c7b8ff091d14667a15b4074ab361e0685771b39826c7c711ecf6a369c866c"
+    },
+    {
+      "path": "backends/ninfer/THIRD_PARTY_NOTICES.md",
+      "size": 1517,
+      "sha256": "ed1032ab92a7190ab74373e9dfdb3b9744f46c948aa4a7bdcc2382b14005095b"
+    },
+    {
+      "path": "backends/ninfer/backend.json",
+      "size": 892,
+      "sha256": "5008f424146b0e475d9f11c253cab5159bb89ffb6fe5bd3cccc7f4b0a345e611"
+    },
+    {
+      "path": "backends/ninfer/patches/dense-bf16-gather.patch",
+      "size": 21266,
+      "sha256": "1292559d04eacf671800d263e026b7fd4e1f2a1ed42675231dd606dd75a84256"
+    },
+    {
+      "path": "backends/wangp/LICENSE.txt",
+      "size": 21924,
+      "sha256": "44086f2df256ddd6336a016c4f7eca01126a2576e306ca2d7fd4719ab43dd667"
+    },
+    {
+      "path": "backends/wangp/MODIFICATIONS.md",
+      "size": 2494,
+      "sha256": "b2d022e58ecaa53d6849e2faa06cb81002dca351c36dab66c92bbc179a86f198"
+    },
+    {
+      "path": "backends/wangp/README.md",
+      "size": 8230,
+      "sha256": "f89a57a9b89037e0731256ef76d573ad067b7b12fb53189d71baf165958ac07e"
+    },
+    {
+      "path": "backends/wangp/backend.json",
+      "size": 1953,
+      "sha256": "68abfb64351179306d4fc4fdd7f4c53eccd6f817ec69b22453998e00aeb5bc9b"
+    },
+    {
+      "path": "backends/wangp/mmgp-LICENSE.md",
+      "size": 211,
+      "sha256": "e3c927bf9f1d16e5cc36e1591e0d4f2e8aea4398f5cc157091292925e50c450c"
+    },
+    {
+      "path": "backends/wangp/patches/engine.patch",
+      "size": 18210,
+      "sha256": "300eb7c09f54757c90b68848a8563b3b4ad2ee64c0cd40f69f5b4802eff6a4f2"
+    },
+    {
+      "path": "backends/wangp/run_batch.py",
+      "size": 10486,
+      "sha256": "c39bd15055bdcd8dc3b4f38d88148a07bc91852b50ae3cd56a7b7d41e1dd2483"
+    },
+    {
+      "path": "backends/wangp/tests/run_cpu_tests.py",
+      "size": 835,
+      "sha256": "cc21a697709bb4a1779b31e007419dda0cfd2c5e95b3a5834af778a42b3623af"
+    },
+    {
+      "path": "backends/wangp/tests/test_adapter.py",
+      "size": 9954,
+      "sha256": "9f71e668cc56e117287cc62f205997146dc80b588068f4c128ecd6bb77c02aef"
+    },
+    {
+      "path": "backends/wangp/tests/test_wangp_h3_image_latent_cache.py",
+      "size": 11843,
+      "sha256": "4644b0c38bdcdd695b41f2e6004b8f610acc0f92f766327f6448a3c36fd04492"
+    },
+    {
+      "path": "backends/wangp/tests/test_wangp_h3_resident_cache.py",
+      "size": 6850,
+      "sha256": "0b12f028b947268ebdd24b5cc884f849bdcdd07e9be79da7ef03d96e5be82d1a"
+    },
+    {
+      "path": "backends/wangp/tests/test_wangp_h3_vsa_graphs.py",
+      "size": 7775,
+      "sha256": "48456fe913a2d7c14588ee7d77ddc4c960dc7bb8d84e177864acb91194655393"
+    },
+    {
+      "path": "benchmarks/reference.json",
+      "size": 1794,
+      "sha256": "eee23f05ec3f217c475dbc67a960e775c882b355817fe80252d2b73062a70f84"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "size": 4046,
+      "sha256": "438ecec9af7e3a41e2c06297ffa7e150019e3b21e358eec4cfbfdcb3288b45e2"
+    },
+    {
+      "path": "tests/test_release_gate.py",
+      "size": 12872,
+      "sha256": "9332d4a6e5f18fc3bf7f8b2e600119fd67f2411a3129ae5c3c2488ddb6389ec0"
+    },
+    {
+      "path": "tools/check_release.py",
+      "size": 16541,
+      "sha256": "55fa1db82b1e6214198378fd1ecdfd7283dd07efcd25f5fefe39075328085ebc"
+    },
+    {
+      "path": "tools/engine.py",
+      "size": 6695,
+      "sha256": "68bb7f2a626933bbd7cbbc7d750667400009edf3313d47dd5c2cdf43c352fe93"
+    }
+  ]
+}
